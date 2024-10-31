@@ -1,0 +1,25 @@
+#introTitle{
+    font-size: 100px;
+    margin:0px;
+    text-align: center;
+    color:black;
+    stroke: 00F6EA;
+    text-shadow: 
+    0 0 10px rgba(0, 191, 255, 1),
+    0 0 20px rgba(0, 191, 255, 1)
+}
+#p1{
+    padding:5px;
+    border: 4px solid rgb(244, 255, 142);
+    margin:2.5% 20% 2% 5%;
+    font-size:19px
+}
+#p2{
+    padding:5px;
+    border: 4px solid rgb(255, 170, 255);
+    margin:0% 5% 5% 20%;
+    font-size:19px
+}
+#introContent{
+    
+}

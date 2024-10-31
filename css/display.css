@@ -1,0 +1,161 @@
+#word1 {
+    font-size: 200px;
+    top: 0;
+    left: 110px; 
+    margin: 0px;
+    color: #FFD700; /* Soft Yellow */
+}
+
+#word2 {
+    font-size: 150px;
+    top: 200px;
+    left: 100px; 
+    margin: 0px;
+    color: #FF69B4; /* Bright Pink */
+}
+
+#word3 {
+    font-size: 100px;
+    top: 400px;
+    left: 200px; 
+    margin: 0px;
+    color: #BA55D3; /* Medium Purple */
+}
+
+#word4 {
+    font-size: 200px;
+    top: 330px;
+    left: 400px; 
+    margin: 0px;
+    transform: rotate(90deg);
+    transform-origin: left top; 
+    color: #9370DB; /* Medium Slate Blue */
+}
+
+#word5 {
+    font-size: 200px;
+    top: 0;
+    left: 200px; 
+    margin: 0px;
+    transform: rotate(90deg); 
+    transform-origin: left top; 
+    color: #87CEFA; /* Light Sky Blue */
+}
+#word1, #word2, #word3, #word4, #word5 {
+    position: absolute;
+    transition: transform 1s ease-in-out;
+}
+
+
+#word1:hover, #word2:hover, #word3:hover {
+    animation: scrollRight 1s linear infinite;
+}
+
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px); 
+    }
+}
+#word4 {
+    font-size: 200px;
+    top: 330px;
+    left: 400px;
+    margin: 0px;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    color: #9370DB;
+}
+
+#word5 {
+    font-size: 200px;
+    top: 0;
+    left: 200px;
+    margin: 0px;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    color: #87CEFA;
+}
+
+#word4:hover, #word5:hover {
+    animation: scrollLeft 1s linear infinite;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: rotate(90deg) translateY(0); /* Keeps initial rotation */
+    }
+    100% {
+        transform: rotate(90deg) translateY(100px); /* Moves down without horizontal shift */
+    }
+}
+
+
+#display{
+    height:698px;
+}
+#footD{
+    height:89px;
+}
+#displays {
+    position: relative; /* Establishes a positioning context for absolutely positioned children */
+    width: 100%;      /* Adjust width as needed */
+    
+    overflow: hidden;  /* Optional: hides overflow if text exceeds the div */
+}
+
+#displays p {
+    position:absolute;
+    width: 100%;       /* Make each word take full width of the div */
+    text-align: center; /* Center the text horizontally */
+    opacity: 0.8;      /* Optional: adjust opacity for better overlay effect */
+    transition: all 0.3s; /* Smooth transition for hover effects, if needed */
+}
+.instagram-logo {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px rgb(110, 108, 108) solid;
+}
+
+
+.instagram-logo .outer-circle {
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-logo .inner-circle {
+
+    width: 50%;
+    height: 50%;
+    background-color: #262626;
+    border-radius: 50%;
+}
+
+/* Camera flash dot */
+.instagram-logo::before {
+    content: '';
+    width: 15%;
+    height: 15%;
+    background-color: #262626;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}

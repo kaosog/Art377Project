@@ -1,0 +1,207 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+#box4 {
+    position:relative;
+    background: lightgray;
+    border: 5px solid #00F6EA;
+    height:40%;
+    position:absolute;
+    width:55%;
+    bottom:0px;
+    right:0px;
+    z-index:2;
+}
+
+#box3 {
+    position:relative;
+    background: lightgray;
+    border: 5px solid #00F6EA;
+    margin-right:40%;
+    height:40%;
+    width:60%;
+    z-index:2;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7,.text8,.text9 {
+    position: absolute;
+    font-family: serif;
+    color: black;
+}
+
+/* Adjusted font sizes and positions to fit within 395x200px container */
+.text1 {
+    font-size: 24px;
+    top: 10px;
+    left: 10px;
+}
+
+.text2 {
+    font-size: 80px;
+    top: 10px;
+    left: 105px;
+}
+
+.text3 {
+    font-size: 80px;
+    top: 58px;
+    left: 3px;
+}
+
+.text4 {
+    font-size: 20px;
+    top: 90px;
+    left: 200px;
+}
+
+.text5 {
+    font-size: 80px;
+    top: 110px;
+    left: 106px;
+}
+
+.text6 {
+    font-size: 24px;
+    top: 150px;
+    left: 10px;
+}
+
+.text7 {
+    font-size: 80px;
+    top: 58px;
+    left: 235px;
+}
+.text8 {
+    font-size: 20px;
+    top: 150px;
+    left: 400px;
+}
+.text9 {
+    font-size: 20px;
+    top: 58px;
+    left: 300px;
+}
+
+
+.shadow {
+    position: absolute;
+    top: 0;
+    font-size: 20px; /* Adjust font size as needed */
+    color: black; /* Set a shadow color */
+}
+
+/* Each <p> is offset slightly to create a shadow effect */
+.shadow:nth-child(1) {
+    right: 0px;    /* No shift */
+    top: 0px;     /* No shift */
+}
+
+.shadow:nth-child(2) {
+    right: 6px;    /* Shift right */
+    top: 0px;     /* No shift */
+}
+
+.shadow:nth-child(3) {
+    right: 12px;    /* Shift further right */
+    top: 0px;     /* No shift */
+}
+
+.shadow:nth-child(4) {
+    right: 18px;   /* Shift even further right */
+    top: 0px;     /* No shift */
+}
+
+#types{
+    position:absolute;
+    z-index:1;
+    top:155px;
+    left:525px;
+    width: 100px; 
+    height: 100%; 
+    display:flex;
+}
+.shadow{
+    margin:0%;
+    font-size:165px;
+    display:flex;
+}
+#expBody{
+    position: relative
+}
+
+.letter1 {
+    color: #f6ffa645; 
+}
+
+.letter5 {
+    color: #f6ffa6a9; 
+}
+
+.letter9 {
+    color: #f6ffa6; 
+}
+
+
+
+
+.letter2 {
+    color: #ffcef539
+}
+
+.letter6 {
+    color: #ffcef588
+}
+
+.letter10 {
+    color: #FFCEF5
+}
+
+
+
+.letter3 {
+    color: #00f6ea53
+}
+
+.letter7 {
+    color: #00f6ea85
+}
+
+.letter11 {
+    color: #00F6EA
+}
+
+
+.letter4 {
+    color: #ff8bf546
+}
+
+.letter8 {
+    color: #ff8bf5b6
+}
+
+.letter12 {
+    color: #FF8BF5
+}
+
+.sidebarFirst:hover .heart{
+    color:red
+}
+.sidebarThird:hover .heart{
+    color:red
+}
+
+#jinxed{
+    font-size: 30px;
+    margin:15px;
+}
+#dozen{
+    font-size: 30px;
+    margin: 15px;
+    margin-left:15%;
+}
+

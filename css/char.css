@@ -1,0 +1,89 @@
+.charBox{
+    width:45%;
+    height: 90%;
+    display:inline-flex;
+    flex-direction: column;
+}
+#box1{
+    background:rgb(248, 130, 234);
+    margin:2% 5% 5% 5%;
+    border:2px solid black;
+    position:relative;
+}
+#box2{
+    background:rgb(132, 239, 253);
+    margin:5% 5% 5% 0%;
+    border:2px solid black;
+    position:relative;
+}
+#charContent{
+    display:flex;
+}
+#char{
+    height:717px
+}
+#charFooter{
+    height: 110px;
+}
+.letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px; 
+    text-align: center;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px; 
+    margin:5%;
+    border: 1px solid white;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+}
+.letter:hover {
+    transform: scale(0.9); 
+    background: darkgray; 
+}
+
+.number{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Same as width for a circle */
+    text-align: center;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px; /* Adjust as desired */
+    margin:5%;
+    border: 1px solid white;
+}
+.number:hover {
+    transform: scale(0.9); 
+    background: darkgray; 
+}
+.letters{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    margin-bottom:30%;
+}
+.numbers{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+}
+.Lletters{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    margin-bottom:30%;
+}
+
+
+

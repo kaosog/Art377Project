@@ -1,0 +1,44 @@
+#bodyStyleM{
+    border: 6px solid rgb(161, 253, 252);
+    font-size:50px;
+    margin:0% 10% 0% 10%;
+    font-weight:bold;
+    padding:10px;
+}
+#spacer{
+    height: 60px;
+}
+#customFoot{
+    height:300px;
+    display:flex;
+    flex-direction: column;
+}
+#customFootIn{
+    display:flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+#bodyStyle{
+    height: 909px
+}
+#commentBlock{
+    display:flex;
+    margin-left:20%;
+}
+#headB{
+    display:flex;
+    width:100%;
+}
+#commenter{
+    font-size:25px;
+    padding-right:15px;
+}
+#comment{
+    margin-top:10px;
+}
+#Martin{
+    margin: 0px;
+}
+#com{
+    margin: 16px 0px 5px 0px;
+}
