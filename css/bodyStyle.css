@@ -4,12 +4,13 @@
     margin:0% 10% 0% 10%;
     font-weight:bold;
     padding:10px;
+    background: rgba(249, 249, 249, 0.163);
 }
 #spacer{
-    height: 60px;
+    height: 45px;
 }
 #customFoot{
-    height:300px;
+    height:390px;
     display:flex;
     flex-direction: column;
 }
@@ -19,7 +20,9 @@
     margin: 0px 15px;
 }
 #bodyStyle{
-    height: 909px
+    height: 999px
+    
+    
 }
 #commentBlock{
     display:flex;
@@ -30,14 +33,17 @@
     width:100%;
 }
 #commenter{
-    font-size:25px;
+    font-size:28px;
+    font-weight:bold;
     padding-right:15px;
+    
 }
 #comment{
     margin-top:10px;
 }
 #Martin{
-    margin: 0px;
+    margin: 0px 0px 0px 60px;
+    font-size:22px;
 }
 #com{
     margin: 16px 0px 5px 0px;
